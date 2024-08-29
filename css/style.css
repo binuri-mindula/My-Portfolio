@@ -220,6 +220,28 @@
 }
 
 
+
+
+.background-container {
+    position: relative;
+    /* Relative positioning to allow child absolute positioning */
+    background-image: url('../img//paint.png');
+    /* Path to your background image */
+    background-size: cover;
+    /* Scale the image to cover the entire container */
+    background-position: center;
+    /* Center the background image */
+}
+
+.img-fluid {
+    position: relative;
+    /* Relative positioning for stacking context */
+    z-index: 1;
+    /* Place the image above the background */
+}
+
+
+
 /*** About ***/
 /* About Section Styling */
 #about {
